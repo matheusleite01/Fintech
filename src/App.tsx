@@ -3,16 +3,19 @@ import "./style.css";
 import Resumo from "./Pages/Resumo";
 import Header from "./Components/Header";
 import Sidenav from "./Components/Sidenav";
+import { DataContextProvider } from "./Context/DataContext";
 
 const App = () => {
   return (
-    <div>
-      <Resumo />
-      <main>
-        <Header />
-        <Sidenav />
-      </main>
-    </div>
+    <DataContextProvider>
+      <div>
+        <Resumo />
+        <main>
+          <Header />
+          <Sidenav />
+        </main>
+      </div>
+    </DataContextProvider>
   );
 };
 
