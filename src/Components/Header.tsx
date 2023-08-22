@@ -1,8 +1,11 @@
 import React from 'react'
+import DateRange from './DateRange'
 
 const Header = () => {
   return (
-    <div>Heade</div>
+    <div>
+      <DateRange />
+    </div>
   )
 }
 
