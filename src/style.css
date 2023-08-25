@@ -99,6 +99,7 @@ ul {
 .sidenav li a {
   flex: 1;
   font-size: 1.125rem;
+  margin: 0.25rem 0;
   text-decoration: none;
   color: var(--color-1);
   padding: var(--gap-s);
