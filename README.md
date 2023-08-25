@@ -2,7 +2,7 @@
 
 ![App Screenshot](public/readme.png)
 
-#### Access here -> [Fintech]('')
+#### Access here -> [Fintech]('https://fintech-psi.vercel.app/')
 <br>
 
 # Overview
@@ -15,7 +15,7 @@ The application was built in the course "React with Typescript" by [Origamid]('h
 
 - React: JavaScript library for building user interfaces.
 - Typescript: a strict syntactic superset of JavaScript and adds optional static typing to the language.
--Recharts: [Recharts]('https://recharts.org/en-US/') is a composable charting library built on React components. It makes integrating charts into our React application seamless and easy.
+- Recharts: [Recharts]('https://recharts.org/en-US/') is a composable charting library built on React components. It makes integrating charts into our React application seamless and easy.
 
 <br>
 
